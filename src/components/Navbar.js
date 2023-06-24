@@ -8,6 +8,8 @@ import {
   GithubIcon,
   LinkedInIcon,
   PinterestIcon,
+  MoonIcon,
+  SunIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 
@@ -87,6 +89,8 @@ const Navbar = () => {
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
+        <MoonIcon />
+        <SunIcon />
       </div>
     </header>
   );
